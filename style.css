@@ -1,0 +1,210 @@
+/* ---------- FONTAWESOME ---------- */
+/* ---------- https://fortawesome.github.com/Font-Awesome/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+/* ---------- ERIC MEYER'S RESET CSS ---------- */
+/* ---------- https://meyerweb.com/eric/tools/css/reset/ ---------- */
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+/* ---------- FONTAWESOME ---------- */
+[class*="fontawesome-"]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+
+
+
+body {
+  background: grey;
+  color: #000;
+  font-family: "Varela Round", sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+input {
+  background-image: none;
+  border: none;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.wrapperbox{
+  margin: 25px auto; 
+  
+  width: 900px;
+  height: 900px;
+  position: relative;
+  background-color: #fff;
+   border-radius: 20px 20px ;
+}
+.homediv{
+  padding: 50px;
+}
+.homediv h3{
+  font-size: 40px;
+  text-align: center; 
+}
+
+
+.warning{
+  padding: 2px;
+  text-align: center;
+  font-size: 0.8em; 
+  background-color: red;
+}
+
+.logout
+{
+  
+  
+ margin: auto;
+  font-size: 20px;
+  width: 100px;
+
+  background-color:#81dafc;
+  text-align: center;
+  padding: 4px 1px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.logout:hover{
+  background-color: #b6e7fa;
+}
+.logout a{
+  color:#fff;
+  text-decoration: none;
+}
+.logout span{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+.outerbox {
+  margin: 150px auto; 
+  max-width: 90%;
+  width: 400px;
+  height: 330px;
+  position: relative;
+   border-radius: 20px 20px ;
+}
+
+
+
+#loginbox{
+  width: 400px;
+  height: 330px;  
+   border-radius: 20px 20px ;
+
+   background-color: #fff;
+}
+#loginbox:after,
+#loginbox:before,
+.outerbox:before{
+   content: "";
+  display: block;
+ 
+  
+  position: absolute;
+  width: 400px;
+  height: 330px;
+  border-radius: 20px 20px ;
+}
+
+.outerbox:before{
+      left: -20px;
+    top: 40px;
+   background-color:#fff;
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  transform: rotate(8deg);
+ 
+  z-index: -3;
+}
+#loginbox:after {
+   left: -15px;
+  top: 25px;
+   background-color:#81dafc;
+  -webkit-transform: rotate(6deg);
+  -moz-transform: rotate(6deg);
+  -ms-transform: rotate(6deg);
+  -o-transform: rotate(6deg);
+  transform: rotate(6deg);
+ 
+  z-index: -2;
+}
+#loginbox:before {
+  left: -12px;
+  top: 10px;
+  background-color:#f95252;
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  -o-transform: rotate(4deg);
+  transform: rotate(4deg);  
+  z-index: -1;
+
+}
+
+#loginbox h2,
+.wrapperbox h2 {
+  
+  border-radius: 20px 20px 0 0;
+  color: #fff;
+  font-size: 28px;
+  padding: 20px 26px;
+}
+#loginbox h2 {
+  background: #81dafc;
+}
+.wrapperbox h2 {
+  background: #f95252;
+}
+
+h2 span[class*="fontawesome-"] {
+  margin-right: 14px;
+}
+
+.formbox
+{
+   padding: 20px 26px;
+}
+
+
+.formbox p {
+  color: #777;
+  margin-bottom: 14px;
+}
+input {
+  border-radius: 3px;
+  background: #eee;
+  color: #777;
+  padding: 4px 10px;
+  width: 100%;
+}
+
+
+#submit{
+  background: #f95252;
+  color: #fff;
+  display: block;
+  margin: 0 auto;
+  padding: 4px 0;
+  width: 100px;
+}
+
+#submit:hover {
+  background: #f82121 ;
+}
